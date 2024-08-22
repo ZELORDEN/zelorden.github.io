@@ -342,6 +342,11 @@ body {
     background-color: transparent;
     transition: border-color 0.3s;
     margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.inp:hover{
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
 }
 .button:hover{
   transition: transform 0.3s ease-in-out;
