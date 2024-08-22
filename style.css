@@ -90,12 +90,12 @@ body {
 .offer{
     display: flex;
     justify-content: space-between;
-    background-image: url(/man.png) ;
+    background-image: url(man.png) ;
     background-repeat: no-repeat;
 }
 .offer__holder{
     width: 648px;
-    background-image: url(/bg.png);
+    background-image: url(bg.png);
 }
 .offer__title{
     font-size: 58px;
