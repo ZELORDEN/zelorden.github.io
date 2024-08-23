@@ -162,3 +162,51 @@ a:hover{
     background-clip: text;
     color: transparent;
 }
+@media (max-width: 768px) {
+
+    .Header>h1 {
+        font-size: 2rem;
+    }
+
+    .Header>h2 {
+        font-size: 1.5rem;
+    }
+
+    .Images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-gap: 20px;
+    }
+
+    img {
+        width: 100%; 
+        max-width: 200px; 
+    }
+
+    .shopdev {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-size: 1.5rem; 
+        gap: 10px; 
+    }
+
+    .shopdev ul {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .shopdev ul li, .shopdev ul h3 {
+        font-size: 1.5rem; 
+    }
+
+    .footer {
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    a {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+}
