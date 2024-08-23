@@ -92,7 +92,7 @@ img:not(:hover) {
 
 .shopdev li {
     text-align: center;
-    margin-top: 5px;
+    margin:15px;
     color: rgb(253, 253, 253);
 }
 .shop{
