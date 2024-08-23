@@ -162,7 +162,7 @@ a:hover{
     background-clip: text;
     color: transparent;
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 
     .Header>h1 {
         font-size: 2rem;
